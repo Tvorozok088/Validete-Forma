@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <form action="" class="form" id="form">
+        <div class="form__title">
+            <span>Responsive Form</span>
+        </div>
+        <div class="form__body">
+          
+            
+                
+                <div class="form__item">
+                    <input type="text"
+                    
+                     name="name" id="name" class="input" placeholder="name" required minlength="2" maxlength="20"/>
+                    <span class="error" id="name-error"></span>
+                </div>
+                <div class="form__item">
+                    <input type="text"
+                    
+                    name="surname" id="surname" class="input" placeholder="surname" required minlength="2" maxlength="40"/>
+                    <span class="error" id="surname-error"></span>
+                </div>
+                <div class="form__item">
+                    <input type="email"
+                    
+                    name="email" id="email" class="input" placeholder="email" required minlength="5"/>
+                    <span class="error" id="email-error"></span>
+                </div>
+                <div class="form__item">
+                    <input type="tel"
+                    
+                    name="phone" id="phone" class="input " placeholder="phone" required/>
+                    <span class="error" id="phone-error"></span>
+                </div>
+                <textarea name="text" id="text" class="form__textarea"></textarea>
+                <button type="submit" class="form__btn" >SUBMIT</button>
+            
+        </div>
+    </form>
+<script src="./script.js"></script>
+</body>
+</html>
